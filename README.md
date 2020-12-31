@@ -2,7 +2,7 @@
 
 [![CodacyBadge](https://api.codacy.com/project/badge/Grade/f297f8df96c149c4853280935d554be1)](https://app.codacy.com/gh/johnsonjh/OX153)
 
--------------------
+---
 
 ## LEGAL TERMS AND CONDITIONS FOR USE, COPYING, DISTRIBUTION, AND MODIFICATION
 
@@ -42,4 +42,3 @@ the length of the longest line to exceed, at any moment, the universal constant
 of 153 characters, they are hereby reminded that those whom the gods wish to
 destroy they first make mad, stealing away their minds of good sense, and
 turning their thoughts to foolishness.
-
