@@ -3,6 +3,8 @@
 [![CodacyBadge](https://api.codacy.com/project/badge/Grade/f297f8df96c149c4853280935d554be1)](https://app.codacy.com/gh/johnsonjh/OX153)
 [![DeepSource](https://deepsource.io/gh/johnsonjh/OX153.svg/?label=active+issues)](https://deepsource.io/gh/johnsonjh/OX153/?ref=repository-badge)
 [![TickgitTODOs](https://img.shields.io/endpoint?url=https://api.tickgit.com/badge?repo=github.com/johnsonjh/OX153)](https://www.tickgit.com/browse?repo=github.com/johnsonjh/OX153)
+[![LocCount](https://img.shields.io/tokei/lines/github/johnsonjh/OX153.svg)](https://github.com/XAMPPRocky/tokei)
+[![GitHubCodeSize](https://img.shields.io/github/languages/code-size/johnsonjh/OX153.svg)](https://github.com/johnsonjh/OX153)
 
 ---
 
