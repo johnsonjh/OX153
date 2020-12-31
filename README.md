@@ -15,7 +15,7 @@ and without warranty of any kind, either expressed or implied.
 
 This license, henceforth known as the "Oxford 153 Entitlement", is NOT a
 GPL-compatible license, and this tool is NOT "free software", according to
-common and generally accepted definitions of "free software", including,  
+common and generally accepted definitions of "free software", including,
 but not limited to, the definition of "free software" provided by Richard M.
 Stallman, and, subsequently, the definitions asserted by the Free Software
 Foundation. As the Open Source Initiative has NOT reviewed this license, it is
