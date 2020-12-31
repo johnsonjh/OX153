@@ -1,6 +1,6 @@
 # The Oxford 153 Entitlement: Mark I. (OX153MK1)
 
-[![CodacyBadge](https://api.codacy.com/project/badge/Grade/f297f8df96c149c4853280935d554be1)](https://app.codacy.com/gh/johnsonjh/OX153?utm_source=github.com&utm_medium=referral&utm_content=johnsonjh/OX153&utm_campaign=Badge_Grade)
+[![CodacyBadge](https://api.codacy.com/project/badge/Grade/f297f8df96c149c4853280935d554be1)](https://app.codacy.com/gh/johnsonjh/OX153)
 
 -------------------
 
@@ -31,8 +31,8 @@ no membership dues, and do NOT receive any form of sponsorship from SPI.
 
 ## NOTICE
 
-All uses of the Oxford comma within this tool are immutable supported
-by miraculous revelations, and under no circumstances alterable.
+All uses of the Oxford comma within this tool are immutable, supported
+by miraculous revelations, and, under no circumstances, alterable.
 
 ## WARNING
 
