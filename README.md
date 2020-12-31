@@ -32,7 +32,7 @@ no membership dues, and do NOT receive any form of sponsorship from SPI.
 ## NOTICE
 
 All uses of the Oxford comma within this tool are immutable, supported
-by miraculous revelations, and, under no circumstances, alterable.
+by miraculous revelations, and under no circumstances, alterable.
 
 ## WARNING
 
