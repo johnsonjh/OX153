@@ -1,3 +1,6 @@
+
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/f297f8df96c149c4853280935d554be1)](https://app.codacy.com/gh/johnsonjh/OX153?utm_source=github.com&utm_medium=referral&utm_content=johnsonjh/OX153&utm_campaign=Badge_Grade)
+
 The Oxford 153 Entitlement: Mark I. (OX153MK1)
 
 LEGAL TERMS AND CONDITIONS FOR USE, COPYING, DISTRIBUTION, AND MODIFICATION:
