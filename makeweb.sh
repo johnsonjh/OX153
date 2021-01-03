@@ -52,7 +52,7 @@
 #####################################################################
 #
 #####################################################################
-#                                                                   # 
+#                                                                   #
 #    The following license applies to THIS TOOL (OX153 makeweb):    #
 #                                                                   #
 #####################################################################
@@ -112,8 +112,8 @@ if [ ! -f "./README.md" ]; then
 fi
 printf '%s ' \
 	"Converting markdown..."
-	grep -v "project/badge" ./README.md | pandoc -s --metadata title="OX153MkI" -r markdown -o public/index.html \
-	>/dev/null \
+grep  -v "project/badge" ./README.md | pandoc -s --metadata title="OX153MkI" -r markdown -o public/index.html \
+	> /dev/null \
 	2>&1 ||
 	{
 		printf '%s\n' \
@@ -132,8 +132,8 @@ printf '%s ' \
 find "./public" -name '*.html' -exec \
 	tidy --add-meta-charset true -utf8 -w 76 -qiubnm \
 	"{}" \; \
-	2>/dev/null \
-	>/dev/null \
+	2> /dev/null \
+	> /dev/null \
 	2>&1 ||
 	{
 		printf '%s\n' \
@@ -150,7 +150,7 @@ printf '%s ' \
 	true
 :
 find ./public -name '*.html' -print0 \
-	2>/dev/null |
+	2> /dev/null |
 	xargs -0 -L1 -I{} \
 		sh -c \
 		'grep -iav ".*generator.*HTML.*Tidy.*>$" "{}" 2>/dev/null |
@@ -163,7 +163,7 @@ find ./public -name '*.html' -print0 \
 :
 printf '%s\n' \
 	"$(date)" \
-	>./.timestamp &&
+	> ./.timestamp &&
 	git add ./.timestamp
 :
 printf '%s\n' \
@@ -173,13 +173,16 @@ printf '%s\n' \
 git gc --aggressive --prune=now ||
 	true
 :
-SEMVER="$(eval printf '%s' "$(printf "%s" "$(semver-tool bump patch "$(printf '%d.%d.%d' "2" "0" "$(cut -d '.' -f 3 ./.patch |\
-	cut -d '.' -f 1)")") |\
-	sponge ./.patch")"; cat ./.patch)"
-git add -A && \
+SEMVER="$(
+	eval        printf '%s' "$(printf "%s" "$(semver-tool bump patch "$(printf '%d.%d.%d' "2" "0" "$(cut -d '.' -f 3 ./.patch |
+		cut -d '.' -f 1)")") |\
+	sponge ./.patch")"
+	cat                   ./.patch
+)"
+git add -A &&
 	git tag -a -s "${SEMVER:?}" -m "v${SEMVER:?} - $(date)" &&
 	printf '%s\n' \
-		"Set new semver tag: ${SEMVER}" &&\
+		"Set new semver tag: ${SEMVER}" &&
 	git commit -q -aS -m "Pushing Pages: $(date)" &&
 	git pushall master &&
 	printf '%s\n' "Complete."
