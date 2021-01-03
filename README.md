@@ -1,4 +1,4 @@
-# The Oxford 153 Entitlement: Mark I. (OX153MK1)
+# The Oxford 153 Entitlement: Mark I. (OX153Mk1)
 
 [![CodacyBadge](https://api.codacy.com/project/badge/Grade/f297f8df96c149c4853280935d554be1)](https://app.codacy.com/gh/johnsonjh/OX153)
 

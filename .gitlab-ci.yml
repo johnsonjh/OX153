@@ -1,0 +1,11 @@
+image: alpine:latest
+pages:
+    tags:
+    - Linux-x86_64
+    stage: deploy
+    script: echo "Pages Deploy"
+    artifacts:
+        paths:
+        - public
+    only:
+    - master
