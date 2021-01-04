@@ -2,7 +2,7 @@
 #
 #####################################################################
 #                                                                   #
-# This is Gridfinity OX153Mk1 makeweb (Release 20210103A) [GFODLv1] #
+# This is Gridfinity OX153Mk1 makeweb (Release 20210103B) [GFODLv1] #
 #                                                                   #
 #####################################################################
 #                                                                   #
@@ -46,7 +46,7 @@
 # ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.                        #
 #                                                                   #
 #####################################################################
-# OX153 makeweb 20210103A requires: POSIX sh, semver-tool >=3.2.0,  #
+# OX153 makeweb 20210103B requires: POSIX sh, semver-tool >=3.2.0,  #
 # sponge >=20060219, pandoc >2.9.2, Tidy-HTML5 >=5.7.28, GNU find,  #
 # GNU xargs, GNU sed, POSIX cat, and a recent release of Git VCS.   #
 #####################################################################
@@ -174,10 +174,10 @@ git gc --aggressive --prune=now ||
 	true
 :
 SEMVER="$(
-	eval        printf '%s' "$(printf "%s" "$(semver-tool bump patch "$(printf '%d.%d.%d' "2" "0" "$(cut -d '.' -f 3 ./.patch |
+	eval printf '%s' "$(printf "%s" "$(semver-tool bump patch "$(printf '%d.%d.%d' "2" "0" "$(cut -d '.' -f 3 ./.patch |
 		cut -d '.' -f 1)")") |\
 	sponge ./.patch")"
-	cat                   ./.patch
+	cat ./.patch
 )"
 git add -A &&
 	git tag -a -s "${SEMVER:?}" -m "v${SEMVER:?} - $(date)" &&
