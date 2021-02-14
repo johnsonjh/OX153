@@ -2,7 +2,7 @@
 #
 #####################################################################
 #                                                                   #
-# This is Gridfinity OX153Mk1 makeweb (Release 20210103B) [GFODLv1] #
+# This is Gridfinity OX153Mk1 makeweb (Release 20210214A) [GFODLv1] #
 #                                                                   #
 #####################################################################
 #                                                                   #
@@ -12,7 +12,7 @@
 #                                                                   #
 # The Gridfinity Open Documentation License v1.0 (GFODLv1)          #
 #                                                                   #
-# Copyright (c) 2021 Gridfinity, LLC. <admin@gridfinity.com>        #
+# Copyright (c) 2021 Jeffrey H. Johnson <trnsz@pobox.com>           #
 #                                                                   #
 # All Rights Reserved.                                              #
 #                                                                   #
