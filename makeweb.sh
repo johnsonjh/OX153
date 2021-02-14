@@ -13,7 +13,6 @@
 # The Gridfinity Open Documentation License v1.0 (GFODLv1)          #
 #                                                                   #
 # Copyright (c) 2021 Gridfinity, LLC. <admin@gridfinity.com>        #
-# Copyright (c) 2021 Jeffrey H. Johnson. <jeff@gridfinity.com>      #
 #                                                                   #
 # All Rights Reserved.                                              #
 #                                                                   #
